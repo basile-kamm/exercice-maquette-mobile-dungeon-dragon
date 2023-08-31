@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  width: 415px;
 }
 
 body {
@@ -24,8 +25,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
-  font-size: 1rem;
-  line-height: 1.5rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -37,8 +38,39 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+.logoD-D_container {
+  background: #e7e7db;
+  border-bottom: 3px solid #df0000;
+}
+
+.logoD-D {
+  margin: auto;
+  display: block;
+  padding: 11px 0 14px;
+}
+
+.coverST {
+  border-bottom: 3px solid #df0000;
+}
+
+h1 {
+  padding: 25px 30px;
+  margin: auto;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.red_text {
+  color: #df0000;
+}
+
+header {
+  border-bottom: 1px solid #df0000;
+}
