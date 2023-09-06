@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --red: #df0000;
 }
 
 /* ====================================
@@ -57,7 +58,7 @@ video {
 }
 
 .coverST {
-  border-bottom: 3px solid #df0000;
+  border-bottom: 3px solid var(--red);
 }
 
 h1 {
@@ -68,9 +69,80 @@ h1 {
 }
 
 .red_text {
-  color: #df0000;
+  color: var(--red);
 }
 
 header {
-  border-bottom: 1px solid #df0000;
+  border-bottom: 1px solid var(--red);
+  margin-bottom: 22px;
+}
+
+.synopsis {
+  padding: 0 37px 37px;
+  font-size: 21px;
+}
+
+.content {
+  padding: 0 37px 37px;
+}
+
+.content h2 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.prod {
+  background: var(--red);
+  padding: 25px;
+  margin-bottom: 22px;
+}
+
+.prod_img {
+  margin: auto;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cta {
+  background: var(--red);
+  border-radius: 8px;
+  margin: 0 auto 60px;
+  display: inline-block;
+  padding: 6px 12px;
+}
+
+.cta a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer {
+  background-image: url(../img/background.png);
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 18px;
+  padding: 22px 0;
+}
+
+.footer_red_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  margin-bottom: 31px;
+}
+
+.footer_red_links a {
+  color: var(--red);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sources {
+  color: white;
+  font-size: 12px;
+  padding: 40px;
 }
